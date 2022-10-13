@@ -1,0 +1,1 @@
+The flies directory contains files which will be available to the web server, for rendering or downloading purposes, but which are not otherwise part of the web(page). Flies are stuck to, or associated with, the web. The spider is the user, who crawls the web (the navigational and contentful design) and may find flies stuck to that web occasionally.
