@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- TODO: What's up DOC TYPE? -->
 <html>
   <head>
     <title></title>
@@ -7,9 +8,9 @@
   </head>
   <body>
     <header>
-      <a href="sample1.html">Blog</a>
-      <a href="sample2.html">Portfolio</a>
-      <a>About</a>
+        <h1><a href="sample1.html">Blog</a></h1>
+        <h1><a href="sample2.html">Portfolio</a></h1>
+        <h1><a>About</a></h1>
     </header>
     <main>
       <article id="001">
@@ -23,7 +24,11 @@
 	    <li>a professional appearance and implementation.</li>
 	  </ul>
 	  <p>It is hoped that this website will eventually earn me a job with a respectable company, such that I can afford some of the luxuries of modern life, and also contribute back to society as is indicated by the following maxim:</p>
+    <!-- TODO: wording: tag or element? -->
+    <!-- I knew that a cite and "quote" tag/element existed in HTML, but I didn't consider using the figure and figcaption tags, nor did I expect I should use a paragraph tag inside the blockquote, but you may be quoting a list, or an image, I suppose. -->
+    <!-- BEGIN: Citation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote -->
 	  <figure name="communist-quote"><blockquote cite="https://en.wikipedia.org/wiki/From_each_according_to_his_ability,_to_each_according_to_his_needs"><p>In a higher phase of communist society, after the enslaving subordination of the individual to the division of labor, and therewith also the antithesis between mental and physical labor, has vanished; after labor has become not only a means of life but life's prime want; after the productive forces have also increased with the all-around development of the individual, and all the springs of co-operative wealth flow more abundantly—only then can the narrow horizon of bourgeois right be crossed in its entirety and society inscribe on its banners: From each according to his ability, to each according to his needs!</p></blockquote><figcaption>—<author>Karl Marx</author>, <cite>Critique of the Gotha Programme</cite><figcaption></figure>
+    <!-- END: Citation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote -->
 	</div>
 	<div name="article-001-software">
 	  <h2>How this website was created</h2>
@@ -36,6 +41,7 @@
 		<th colspan="2">Software used across the site</th>
 	      </tr>
 	    </thead>
+	    <!-- END: this structure taken from MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#try_it -->
 	    <tbody>
 	      <tr name="text-editors">
 	      <th colspan="2">Text editors</th>
