@@ -65,8 +65,26 @@
 	<a href="#article-001-header">Return to beginning of article.</a>
       </article>
       <article name="legal">
-	<h1>Legal</h1>
-	<p>Software, unless explicitly stated otherwise, is the copyrighten material of its respective owners and no claim to right or ownership is made.</p>
+	        <h1>Legal</h1>
+	        <p>Software, unless explicitly stated otherwise, is the copyrighten material of its respective owners and no claim to right or ownership is made.</p>
+      </article>
+      <article name="contact">
+      <h1 name="contact">Contact us!</h3>
+      <p>Please use the form below to email us your suggestions for future articles, blog posts, or to ask other questions after leaving general feedback!</p>
+      <p>Thanks!</p>
+      <h2>Email form</h4>
+      <!-- On the first try my form didn't work because I forgot I need to use the ACTION attribute with the mailto URL prefix and the email address, not some URL attribute! -->
+      <form name="COMP266mailToForm" method="post" action="mailto:bcarson4@athabasca.edu" enctype="text/plain">
+          <fieldset>
+              <legend>Email me!<img src="img/commercial-at-mail.png"></legend>
+              <p>This form, when filled, should populate the subject and email body in your email client. You are free to simply click the submission button, delete the content (but please retain the subject), and then send the email. The email will open in your default email client, if your desktop environment has one set. Most modern desktops have an email client set by default, so unless you're running a custom operating system you don't need to worry. If an email client doesn't open, please ask your system administrator for help, or be mildly clever and find my email address 😉.</p>
+              <!-- See the note on self-closing tags and HTML here: https://developer.mozilla.org/en-US/docs/Glossary/Void_element -->
+              <input type="text">
+              <input type="submit">
+          </fieldset>
+      </form>
+      <h4>Other contact methods</h4>
+      <p>No other contact methods are currently supported. Please use email.</p>
       </article>
     </main>
   </body>
