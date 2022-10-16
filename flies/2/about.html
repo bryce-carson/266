@@ -1,91 +1,92 @@
 <!DOCTYPE html>
 <!-- TODO: What's up DOC TYPE? -->
 <html>
-  <head>
-    <title></title>
-    <meta>
+    <head>
+        <title></title>
+        <meta>
     </meta>
-  </head>
-  <body>
-    <header>
-        <h1><a href="sample1.html">Blog</a></h1>
-        <h1><a href="sample2.html">Portfolio</a></h1>
-        <h1><a>About</a></h1>
-    </header>
-    <main>
-      <article id="001">
-	<div name="about-div" id="article-001-header">
-	  <h1>About</h1>
-	  <p>This website is a project website for a first course in web programming (read, JavaScript). The course is designed to teach students the fundamentals of programming, I imagine, using web technologies (JS, HTML, and CSS); the course itself describes it as teaching programming for the web, and learning HTML and CSS are mere byproducts and requirements of that (you can't learn DOM manipulation or do much that is very interesting in JavaScript without learning some HTML, at least). The course is not necessarily targeted to first time programmers, but you absolutely do not need to have any programming experience to take the course.</p>
-	  <p>This website is my portfolio as well as a project website. I will continually work on the website, and as I learn more about web design, and programming for the web I will update this website with the things I learn. Evidence of this learning will be made available to visitors through several features of the site:</p>
-	  <ul>
-	    <li>a blog,</li>
-	    <li>a Git log, maintained using <a href="http://git.codemadness.org/stagit/">Stagit</a>, and (hopefully)</li>
-	    <li>a professional appearance and implementation.</li>
-	  </ul>
-	  <p>It is hoped that this website will eventually earn me a job with a respectable company, such that I can afford some of the luxuries of modern life, and also contribute back to society as is indicated by the following maxim:</p>
-    <!-- TODO: wording: tag or element? -->
-    <!-- I knew that a cite and "quote" tag/element existed in HTML, but I didn't consider using the figure and figcaption tags, nor did I expect I should use a paragraph tag inside the blockquote, but you may be quoting a list, or an image, I suppose. -->
-    <!-- BEGIN: Citation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote -->
-	  <figure name="communist-quote"><blockquote cite="https://en.wikipedia.org/wiki/From_each_according_to_his_ability,_to_each_according_to_his_needs"><p>In a higher phase of communist society, after the enslaving subordination of the individual to the division of labor, and therewith also the antithesis between mental and physical labor, has vanished; after labor has become not only a means of life but life's prime want; after the productive forces have also increased with the all-around development of the individual, and all the springs of co-operative wealth flow more abundantly—only then can the narrow horizon of bourgeois right be crossed in its entirety and society inscribe on its banners: From each according to his ability, to each according to his needs!</p></blockquote><figcaption>—<author>Karl Marx</author>, <cite>Critique of the Gotha Programme</cite><figcaption></figure>
-    <!-- END: Citation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote -->
-	</div>
-	<div name="article-001-software">
-	  <h2>How this website was created</h2>
-	  <!-- This table needs to be overhauled after I read more about tables, accessibility, and HTML in general. -->
-	  <table>
-	    <caption name="software-table" id="table-001">Table 1: Software used in the creation of this website.</caption>
-	    <!-- BEGIN: this structure taken from MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#try_it -->
-	    <thead>
-	      <tr>
-		<th colspan="2">Software used across the site</th>
-	      </tr>
-	    </thead>
-	    <!-- END: this structure taken from MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#try_it -->
-	    <tbody>
-	      <tr name="text-editors">
-	      <th colspan="2">Text editors</th>
-	      <th>
-		<td>Name</td><td>Comment, link, praise, etc.</td>
-	      </th>
-	      <tr>
-		<td>GNU Emacs</td><td><a href="https://www.gnu.org/software/emacs/">The self-documenting text editor, published by the Free Software Foudnation.</a></td>
-	      </tr>
-	      </tr>
-	      <tr name="vector-graphics">
-		<th colspan="2">Vector graphics software</th>
-		<th><td>Name</td><td>Comment, link, praise, etc.</td></th>
-	      <tr>
-		<td>Inkscape</td><td>A very competent, and well-known vector graphcis application. Inkscape is free and open source software, alike most (if not all) software used in the creation of this website.</td>
-	      </tr>
-	      </tr>
-	    </tbody>
-	  </table>
-	</div>
-	<a href="#article-001-header">Return to beginning of article.</a>
-      </article>
-      <article name="legal">
-	        <h1>Legal</h1>
-	        <p>Software, unless explicitly stated otherwise, is the copyrighten material of its respective owners and no claim to right or ownership is made.</p>
-      </article>
-      <article name="contact">
-      <h1 name="contact">Contact us!</h3>
-      <p>Please use the form below to email us your suggestions for future articles, blog posts, or to ask other questions after leaving general feedback!</p>
-      <p>Thanks!</p>
-      <h2>Email form</h4>
-      <!-- On the first try my form didn't work because I forgot I need to use the ACTION attribute with the mailto URL prefix and the email address, not some URL attribute! -->
-      <form name="COMP266mailToForm" method="post" action="mailto:bcarson4@athabasca.edu" enctype="text/plain">
-          <fieldset>
-              <legend>Email me!<img src="img/commercial-at-mail.png"></legend>
-              <p>This form, when filled, should populate the subject and email body in your email client. You are free to simply click the submission button, delete the content (but please retain the subject), and then send the email. The email will open in your default email client, if your desktop environment has one set. Most modern desktops have an email client set by default, so unless you're running a custom operating system you don't need to worry. If an email client doesn't open, please ask your system administrator for help, or be mildly clever and find my email address 😉.</p>
-              <!-- See the note on self-closing tags and HTML here: https://developer.mozilla.org/en-US/docs/Glossary/Void_element -->
-              <input type="text">
-              <input type="submit">
-          </fieldset>
-      </form>
-      <h4>Other contact methods</h4>
-      <p>No other contact methods are currently supported. Please use email.</p>
-      </article>
-    </main>
-  </body>
+    </head>
+    <body>
+        <header>
+            <h1><a href="sample1.html">Blog</a></h1>
+            <h1><a href="sample2.html">Portfolio</a></h1>
+            <h1><a>About</a></h1>
+        </header>
+        <main>
+            <article id="001">
+                <div name="about-div" id="article-001-header">
+                    <!--  -->
+                    <h1>About</h1>
+                    <p>This website is a project website for a first course in web programming (read, JavaScript). The course is designed to teach students the fundamentals of programming, I imagine, using web technologies (JS, HTML, and CSS); the course itself describes it as teaching programming for the web, and learning HTML and CSS are mere byproducts and requirements of that (you can't learn DOM manipulation or do much that is very interesting in JavaScript without learning some HTML, at least). The course is not necessarily targeted to first time programmers, but you absolutely do not need to have any programming experience to take the course.</p>
+                    <p>This website is my portfolio as well as a project website. I will continually work on the website, and as I learn more about web design, and programming for the web I will update this website with the things I learn. Evidence of this learning will be made available to visitors through several features of the site:</p>
+                    <ul>
+                        <li>a blog,</li>
+                        <li>a Git log, maintained using <a href="http://git.codemadness.org/stagit/">Stagit</a>, and (hopefully)</li>
+                        <li>a professional appearance and implementation.</li>
+                    </ul>
+                    <p>It is hoped that this website will eventually earn me a job with a respectable company, such that I can afford some of the luxuries of modern life, and also contribute back to society as is indicated by the following maxim:</p>
+                    <!-- TODO: wording: tag or element? -->
+                    <!-- I knew that a cite and "quote" tag/element existed in HTML, but I didn't consider using the figure and figcaption tags, nor did I expect I should use a paragraph tag inside the blockquote, but you may be quoting a list, or an image, I suppose. -->
+                    <!-- BEGIN: Citation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote -->
+                    <figure name="communist-quote"><blockquote cite="https://en.wikipedia.org/wiki/From_each_according_to_his_ability,_to_each_according_to_his_needs"><p>In a higher phase of communist society, after the enslaving subordination of the individual to the division of labor, and therewith also the antithesis between mental and physical labor, has vanished; after labor has become not only a means of life but life's prime want; after the productive forces have also increased with the all-around development of the individual, and all the springs of co-operative wealth flow more abundantly—only then can the narrow horizon of bourgeois right be crossed in its entirety and society inscribe on its banners: From each according to his ability, to each according to his needs!</p></blockquote><figcaption>—<author>Karl Marx</author>, <cite>Critique of the Gotha Programme</cite><figcaption></figure>
+                        <!-- END: Citation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote -->
+                </div>
+                <div name="article-001-software">
+                    <h2>How this website was created</h2>
+                    <!-- This table needs to be overhauled after I read more about tables, accessibility, and HTML in general. -->
+                    <table>
+                        <caption name="software-table" id="table-001">Table 1: Software used in the creation of this website.</caption>
+                        <!-- BEGIN: this structure taken from MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#try_it -->
+                        <thead>
+                            <tr>
+                                <th colspan="2">Software used across the site</th>
+                            </tr>
+                        </thead>
+                        <!-- END: this structure taken from MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#try_it -->
+                        <tbody>
+                            <tr name="text-editors">
+                                <th colspan="2">Text editors</th>
+                                <th>
+                                    <td>Name</td><td>Comment, link, praise, etc.</td>
+                                </th>
+                                <tr>
+                                    <td>GNU Emacs</td><td><a href="https://www.gnu.org/software/emacs/">The self-documenting text editor, published by the Free Software Foudnation.</a></td>
+                                </tr>
+                            </tr>
+                            <tr name="vector-graphics">
+                                <th colspan="2">Vector graphics software</th>
+                                <th><td>Name</td><td>Comment, link, praise, etc.</td></th>
+                                <tr>
+                                    <td>Inkscape</td><td>A very competent, and well-known vector graphcis application. Inkscape is free and open source software, alike most (if not all) software used in the creation of this website.</td>
+                                </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a href="#article-001-header">Return to beginning of article.</a>
+            </article>
+            <article name="legal">
+                <h1>Legal</h1>
+                <p>Software, unless explicitly stated otherwise, is the copyrighten material of its respective owners and no claim to right or ownership is made.</p>
+            </article>
+            <article name="contact">
+                <h1 name="contact">Contact us!</h3>
+                    <p>Please use the form below to email us your suggestions for future articles, blog posts, or to ask other questions after leaving general feedback!</p>
+                    <p>Thanks!</p>
+                    <h2>Email form</h4>
+                        <!-- On the first try my form didn't work because I forgot I need to use the ACTION attribute with the mailto URL prefix and the email address, not some URL attribute! -->
+                        <form name="COMP266mailToForm" method="post" action="mailto:bcarson4@athabasca.edu" enctype="text/plain">
+                            <fieldset>
+                                <legend>Email me!<img src="img/commercial-at-mail.png"></legend>
+                                <p>This form, when filled, should populate the subject and email body in your email client. You are free to simply click the submission button, delete the content (but please retain the subject), and then send the email. The email will open in your default email client, if your desktop environment has one set. Most modern desktops have an email client set by default, so unless you're running a custom operating system you don't need to worry. If an email client doesn't open, please ask your system administrator for help, or be mildly clever and find my email address 😉.</p>
+                                <!-- See the note on self-closing tags and HTML here: https://developer.mozilla.org/en-US/docs/Glossary/Void_element -->
+                                <input type="text">
+                                <input type="submit">
+                            </fieldset>
+                        </form>
+                        <h4>Other contact methods</h4>
+                        <p>No other contact methods are currently supported. Please use email.</p>
+            </article>
+        </main>
+    </body>
 </html>
