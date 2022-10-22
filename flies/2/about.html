@@ -1,11 +1,16 @@
-<!DOCTYPE html>
-<!-- TODO: What's up DOC TYPE? -->
+<!DOCTYPE HTML>
+<!-- DONE: What's up DOC TYPE? -->
+<!-- https://html.spec.whatwg.org/multipage/syntax.html#the-doctype -->
 <html>
 
 <head>
-    <title></title>
-    <meta>
-    </meta>
+    <!-- FIXME: no fonts are pulled in, and Google Chrome does not display the
+         Unicode characters properly. Will using a webfont fix that, or is it a
+         browser limitation? -->
+    <title>cybe🜆's personal website ⸺ About</title>
+    <!-- <meta>
+         </meta> -->
+    <!-- BEGIN: https://realfavicongenerator.net/ -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -13,24 +18,28 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <!-- END: https://realfavicongenerator.net/ -->
 </head>
 
 <body>
     <header>
-        <h1><a href="sample1.html">Blog</a></h1>
-        <h1><a href="sample2.html">Portfolio</a></h1>
-        <h1><a>About</a></h1>
+        <span name="header-site-navigation-menu">
+            <h1><a href="sample1.html">Blog</a></h1>
+            <h1><a href="sample2.html">Portfolio</a></h1>
+            <h1><a>About</a></h1>
+        </span>
     </header>
     <main>
-        <article id="001">
-            <div name="about-div" id="article-001-header">
-                <!--  -->
+        <article name="article-about">
+            <div name="article-about-div" id="article-about-header">
                 <h1>About</h1>
                 <p>This website is a project website for a first course in web programming (read, JavaScript). The course is designed to teach students the fundamentals of programming, I imagine, using web technologies (JS, HTML, and CSS); the course itself describes it as teaching programming for the web, and learning HTML and CSS are mere byproducts and requirements of that (you can't learn DOM manipulation or do much that is very interesting in JavaScript without learning some HTML, at least). The course is not necessarily targeted to first time programmers, but you absolutely do not need to have any programming experience to take the course.</p>
                 <p>This website is my portfolio as well as a project website. I will continually work on the website, and as I learn more about web design, and programming for the web I will update this website with the things I learn. Evidence of this learning will be made available to visitors through several features of the site:</p>
                 <ul>
                     <li>a blog,</li>
-                    <li>a Git log, maintained using <a href="http://git.codemadness.org/stagit/">Stagit</a>, and (hopefully)</li>
+                    <li>a Git log, maintained using <span class="software-hyperlink" name="stagit-hyperlink">
+                            <a href="http://git.codemadness.org/stagit/">Stagit</a>
+                        </span>, and (hopefully)</li>
                     <li>a professional appearance and implementation.</li>
                 </ul>
                 <p>It is hoped that this website will eventually earn me a job with a respectable company, such that I can afford some of the luxuries of modern life, and also contribute back to society as is indicated by the following maxim:</p>
@@ -46,7 +55,7 @@
                 </figure>
                 <!-- END: Citation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote -->
             </div>
-            <div name="article-001-software">
+            <div name="article-about-software">
                 <h2>How this website was created</h2>
                 <!-- This table needs to be overhauled after I read more about tables, accessibility, and HTML in general. -->
                 <table>
@@ -67,7 +76,9 @@
                             </th>
                         <tr>
                             <td>GNU Emacs</td>
-                            <td><a href="https://www.gnu.org/software/emacs/">The self-documenting text editor, published by the Free Software Foudnation.</a></td>
+                            <td><span class="software-hyperlink" name="emacs-hyperlink">
+                                <a href="https://www.gnu.org/software/emacs/">The self-documenting text editor, published by the Free Software Foudnation.</a>
+                            </span></td>
                         </tr>
                         </tr>
                         <tr name="vector-graphics">
@@ -84,29 +95,52 @@
                     </tbody>
                 </table>
             </div>
-            <a href="#article-001-header">Return to beginning of article.</a>
+            <a href="#article-about-header">Return to beginning of article.</a>
         </article>
-        <article name="legal">
-            <h1>Legal</h1>
-            <p>Software, unless explicitly stated otherwise, is the copyrighten material of its respective owners and no claim to right or ownership is made.</p>
+
+        <article name="article-legal">
+            <div name="article-legal-div" id="article-legal-header">
+                <h1>Legal</h1>
+                <p>Software, unless explicitly stated otherwise, is the copyrighten material of its respective owners and no claim to any rights or ownership is made, except as may or may not be granted to the owner of this website or any other users of some software used throughout the website, through a general, public license or a private licensing agreement between the owner of this website and the respectivce software owner of a given work of some software.</p>
+                <p>Generally, if software has been written by the author of this website an effort has been or will be made to make a copyright notice available on this website or directly within the software if it is generally available.</p>
+                <h2>Links to or copies of copyright notices of software used in this site</h2>
+                <p>No significant works have been incorporated into this website which have not otherwise been attributed yet, or the notice has yet to be incorporated and checked into Git. Such a lack of notice does not imply ownership.</p>
+                <!-- <table>
+                     </table> -->
+            </div>
+            <a href="#article-legal-header">Return to beginning of article.</a>
         </article>
-        <article name="contact">
-            <h1 name="contact">Contact us!</h3>
+
+        <article name="article-contact">
+            <div name="article-contact-div" id="article-contact-header">
+                <h1 name="contact">Contact us!</h1>
                 <p>Please use the form below to email us your suggestions for future articles, blog posts, or to ask other questions after leaving general feedback!</p>
                 <p>Thanks!</p>
-                <h2>Email form</h4>
-                    <!-- On the first try my form didn't work because I forgot I need to use the ACTION attribute with the mailto URL prefix and the email address, not some URL attribute! -->
-                    <form name="COMP266mailToForm" method="post" action="mailto:bcarson4@athabasca.edu" enctype="text/plain">
-                        <fieldset>
-                            <legend>Email me!<img src="img/commercial-at-mail.png"></legend>
-                            <p>This form, when filled, should populate the subject and email body in your email client. You are free to simply click the submission button, delete the content (but please retain the subject), and then send the email. The email will open in your default email client, if your desktop environment has one set. Most modern desktops have an email client set by default, so unless you're running a custom operating system you don't need to worry. If an email client doesn't open, please ask your system administrator for help, or be mildly clever and find my email address 😉.</p>
-                            <!-- See the note on self-closing tags and HTML here: https://developer.mozilla.org/en-US/docs/Glossary/Void_element -->
-                            <input type="text">
-                            <input type="submit">
-                        </fieldset>
-                    </form>
-                    <h4>Other contact methods</h4>
-                    <p>No other contact methods are currently supported. Please use email.</p>
+                <h2>Email form</h2>
+                <form method="post" action="mailto:bcarson4@athabasca.edu" enctype="text/plain">
+                    <fieldset>
+                        <legend>Email me!<img src="img/commercial-at-mail.png"></legend>
+                        <p>This form, when filled, should populate the subject and email body in your email client. You are free to simply click the submission button, delete the content (but please retain the subject), and then send the email. The email will open in your default email client, if your desktop environment has one set. Most modern desktops have an email client set by default, so unless you're running a custom operating system you don't need to worry. If an email client doesn't open, please ask your system administrator for help, or be mildly clever and find my email address 😉.</p>
+                        <!-- See the note on self-closing tags and HTML here: https://developer.mozilla.org/en-US/docs/Glossary/Void_element -->
+                        <label name="email-form-text-input-label">
+                            Enter any comments you have on the website.
+                            <input type="text" name="email-form-text-input">
+                        </label>
+                        <label name="email-form-email-input-label">
+                            Enter a return email address.
+                            <input type="email" name="email-form-email-input">
+                        </label>
+                        <label name="email-form-date-input-label">
+                            Enter the date of your visit to this website.
+                            <input type="date" name="email-form-date-input">
+                        </label>
+                        <input type="submit">
+                    </fieldset>
+                </form>
+                <h3>Other contact methods</h3>
+                <p>No other contact methods are currently supported. Please use email.</p>
+            </div>
+            <a href="#article-contact-header">Return to beginning of article.</a>
         </article>
     </main>
 </body>
