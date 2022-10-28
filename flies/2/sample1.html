@@ -1,21 +1,29 @@
 <!DOCTYPE HTML>
 
 <!-- This document was originally `sample1.html`, taken from COMP 266 at
-Athabasca University. That file was assigned as practice in reading incorrect
-HTML and correcting it. The present content of the file, entirely, likely does
-not contain any remnants other than trivial bytes that raise Theseusian
-questions about identity. -->
+     Athabasca University. That file was assigned as practice in reading
+     incorrect HTML and correcting it. The present content of the file,
+     entirely, likely does not contain any remnants other than trivial bytes
+     that raise Theseusian questions about identity. -->
 
-<html>
+<!-- Elements and attributes I learned of from Emmet, the compressed syntax for
+     HTML and CSS: the lang attribute of the html top-level element; the charset
+     attribute of a meta tag. -->
+<html lang="en">
     <head>
-        <title>Blog</title>
+        <meta charset="UTF-8">
+        <title>sample1</title>
     </head>
 
     <body>
         <header>
-            <h1><a>Blog</a></h1>
-            <h1><a href="sample2.html">Portfolio</a></h1>
-            <h1><a href="about.html">About</a></h1>
+            <nav>
+                <span name="header-site-navigation-menu">
+                    <h1><a>Blog</a></h1>
+                    <h1><a href="/portfolio/index.html">Portfolio</a></h1>
+                    <h1><a href="index.html">About</a></h1>
+                </span>
+            </nav>
         </header>
 
         <article>

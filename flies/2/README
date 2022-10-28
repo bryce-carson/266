@@ -1,0 +1,10 @@
+editor-container-node-screenshot.png contains a picture of the text area and HTML result of the HTML text in that text area, based on the article https://www.w3docs.com/snippets/html/how-to-create-mailto-forms.html. The screenshot shows the POST http method, because I changed it to see if that would work.
+
+In the article, after clicking the "Try it Yourself" button, the example code of the article is used in the interactive editor. The method attribute of the form tag has a value of "get", which doesn't properly send the data inserted in the form inputs to the mail client.
+
+I tried using the POST method instead, which must be input in lowercase letters, and that did work. The overall code from W3docs will inform how I create my "mailto form" for Unit 2. However, the actual structure and instruction on HTML will come from MDN, and I will not be copying the code from W3docs. I merely used this source as a verification or reminder of what I saw the other day from W3Schools which also showed how to write forms using the mailto URL prefix. MDN does not have an exmaple of this behaviour because it is very much deprecated.
+
+I saw an interesting example usage of a mailto URL prefix being used here: https://www.campaignmonitor.com/blog/email-marketing/should-i-use-a-mailto-or-link-to-a-contact-form/.
+<a href="mailto:client@abcwidgets.com?Subject=I'd%20like%20to%20attend%20the%20event&amp;Body=Name:%0D%0APhone%20Number:%0D%0ABlah%20blah">client@abcwidgets.com</a>
+
+I wanted to know if "mailto forms" are deprecated, or merely out of favour.
