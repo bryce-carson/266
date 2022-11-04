@@ -1,0 +1,71 @@
+Unit 1: Site Design
+Design documentation collation, and my reflective learning diary
+Collation of design documentation
+The sections below link to blog posts or “embedded” content (it really isn't such, AU's Landing should improve its terminology) for my site design process.
+
+Personas
+There is an additional reflection for Personas on this blog post.
+
+Click the Adobe Acrobat PDF icon below to download or open the PDF of the personas I have created for Unit 1.
+
+Personas
+
+Scenarios
+The scenarios I created for my personas are in a single blog post, with the first scenario in the original blog post and the remainder of the scenarios made as individual comments on that blog post.
+
+Personas
+
+Mockup and site map
+Click the centered icon below to navigate to the upload-post for these pages.
+
+Unit 1: Site Design: Site Mockup and Site Mapping
+
+
+Reflective Learning Diary entry
+Completed at least once per unit, it should minimally
+
+describe briefly what you have done as work for that unit.
+describe the rationale for what you have done, relating your work explicitly to the personas and scenarios you developed in Unit 1.
+for each learning outcome for the unit, explain how you have met it, with reference to the content that you produce (typically your code or other design artifacts).
+explain and analyze what went well and what didn’t.
+describe what you would do differently if you had to do it again.
+There may be additional requirements for each unit—for example, to provide design documentation and rationales for the work you have produced.
+
+The tutor who marks your portfolio will use your reflections in the diary to interpret what you have done and to guide him or her to the aspects that are of interest. This means it is vital that you put significant effort into doing this, and it is vital to do so before moving from one unit to the next.
+
+Your diary is also a good place to record ways that you have helped others on the course, such as in providing hints, direct help, contribution of links and wiki pages. You may use these contributions as evidence of having met the learning outcomes for the course. For example, helping someone to understand a problem with coding a loop might be used as evidence that you yourself have competence with loops.
+
+The Landing allows you to choose to share some, or all, of your diary with others and allow comments on it. If others have done the same, you may add comments to theirs. Contributing in this way may also be used to provide further evidence of success on the course.
+
+Some Help with Making Reflections
+If you are not used to formally reflecting on the learning process, this may be a little daunting at first. There are many ways to reflect on the work that you have done, and you are welcome to explore a variety of approaches. If you are stuck for ideas, then these leading questions may help you to find aspects of the experience to reflect upon:
+
+What aspects of these tasks were most difficult for you, and why?
+If you had to do the tasks again, what would you do differently, and why?
+How did your previous experience help and/or hinder you in completing the tasks?
+What was the most surprising thing that you learned?
+What was the most useful thing that you learned?
+What did you learn about yourself as a result of completing these tasks?
+In Unit 1: Site Design, I learned about applying the persona and scenario technique to the process of site design. I have spent a number of hours, probably thirty, reflecting on the resources available on Moodle and the Landing in regard to Personas and Scenarios.
+
+Personas are a site design technique that allows web designers to empathize with users by creating a few idealized self-interested agents, either based on user research data (empirical), or based on a sense of audience, as in literature (subjective; asking, “Who would read this?,” or “Who am I writing for?”). To help me fully identify the audience of my website, I created four personas: Yanjo Smithson, Diya Natt, Ario Fisher, and Udonavon Cooper.
+
+Scenarios are used to identify conflict that can occur when users are engaging with a website. The personas are tasked with a goal, and act out that goal. When the imagined, unwritten design of the website creates conflict with the personas, the problem is written down and the web designer attempts to create a solution for the persona in the scenario in Dues ex machina fashion.
+
+I applied the technique above while imagining and then reflecting on my imagined website, based off its themes and purposes. I was able to consider who might visit my website, and address the needs of these visitors by applying the persona and scenario technique, meeting both of the learning outcomes for this unit, Site Design.
+
+Learning Outcomes
+When you have completed this unit, you should be able to
+
+identify the potential audience and purpose for a website.
+use a simple but structured process to identify how the website will address the needs of the anticipated audience.
+— Athabasca University (n.d.). Study Guide Unit 1 Site Design. In COMP 266: Intro to Web Programming. Athabasca University. https://scis.lms.athabascau.ca/mod/book/view.php?id=13059&chapterid=278
+
+Furthermore, informational and navigational elements of the mockup were designed to address the needs of users identified in the site design process, and the application of the above-mentioned technique. As an example, the “Tag Browser” page was designed to meet the needs of the scenario titled, "Udonavon needs to debug R." The other five scenarios are also addressed in the design documentation, in the mockup. The mockup contains five-pointed stars which refer to a scenario by title or persona, and this markup on the mockup pages is circled.
+
+The Persona & Scenario technique posed difficulty, and introspecting didn't immediately help. I took breaks from the material, and repeatedly read information and consulted other information to inform my understanding of personas and scenarios before, during, and (briefly) after creating and applying the technique.
+
+A longer reflection on the Personas technique is given in the blog post I made for that unit work.
+
+I believe the most useful thing I learned was the persona technique for web design; my previous experience with technical writing and considering audience and performing usability testing may have lent itself to the technique of personas had I a literature analogy sooner. When I identified the analog of playwriting, stage setting, etc. (which relates the actors to personas, and scenarios to stages and stage writing or usability testing) it made the process of applying the technique to site design much easier.
+When I was still very much struggling with the course process, and the site design process, I began to write a wiki. In retrospect, the wiki is quite well written, and carefully begins to communicate the site design process students in COMP 266 should follow. I may choose to finish writing this wiki later in the course, but for now I must proceed on to other work, I believe.
