@@ -1,4 +1,4 @@
-editor-container-node-screenshot.png contains a picture of the text area and HTML result of the HTML text in that text area, based on the article https://www.w3docs.com/snippets/html/how-to-create-mailto-forms.html. The screenshot shows the POST http method, because I changed it to see if that would work.
+img/editor-container-node-screenshot.png contains a picture of the text area and HTML result of the HTML text in that text area, based on the article https://www.w3docs.com/snippets/html/how-to-create-mailto-forms.html. The screenshot shows the POST http method, because I changed it to see if that would work.
 
 In the article, after clicking the "Try it Yourself" button, the example code of the article is used in the interactive editor. The method attribute of the form tag has a value of "get", which doesn't properly send the data inserted in the form inputs to the mail client.
 
