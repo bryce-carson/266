@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE HTML>
 
 <html lang="en">
     <head>
@@ -42,7 +42,7 @@
         <main>
             <article>
                 <h1>Unit 2 Blog/Reflections</h1>
-                <section>
+                <section name="unit-2-screencast">
                     <h2>Screencast about Unit 2</h2>
                     <p>The embedded video below has HTML that I did not write,
                     and is only included due to the size restrictions on what I
@@ -87,13 +87,63 @@
                     </p>
                 </section>
 
-                <section>
+                <section name="learning-diary-entry">
                     <h2>Learning diary entry</h2>
-                    <p>This unit was a little difficult for me because I only
-                    worked on the website for a long while sporadically. Much of
-                    the work was spread out over time and that made it difficult
-                    to write a lot of the content and ensure that I had things
-                    completed.</p>
+                    <section id="unit-work">
+                        <h3>Unit work</h3>
+                        <p>In this unit I wrote several well–structured HTML
+                        pages to form the basis of my website. I consulted
+                        several HTML references, and I also learned a bit about
+                        HTTP during this process. I created enough pages that my
+                        website has some significance to it, which might attract
+                        users to it (as well as serving the personas I
+                        developed). The majority of my work can be seen in the
+                        following:
+                            <ul>
+                                <li>the basis of a website meeting the design
+                                documentation needs I identified in Unit 1 of
+                                COMP 266</li>
+                                <li>corrections to the sample HTML</li>
+                                <li>an HTML-based learning diary</li>
+                            </ul>
+                        </p>
+                    </section>
+                    <section id="rationale">
+                        <h3>Rationale</h3>
+                        <p>This unit necessitated creating HTML which described
+                        the structure of the content of my website according to
+                        the design documentation that I created in Unit 1.</p>
+
+                        <p>The scenario, "Diya's recon," is satisfied to
+                        a basic degree by the use of accessibility features of
+                        HTML to describe content that is otherwise not
+                        accessible. This includes captions of images and other
+                        information which is suggested for accessibility reasons
+                        on the MDN HTML Reference.</p>
+
+                        <p>The file
+                        <code>/blog/linux-recommendations.html</code> meets the
+                        needs of the scenario titled, "Yanjo needs Linux
+                        recommendations." The file does this by including the
+                        tags and difficulty rating design elements, which were
+                        introduced into the design to meet the needs of
+                        Yanjo.</p>
+
+                        <p>The file <code>/blog/index.html</code> meets the
+                        needs of the scenario titled "Udonavon needs Emacs
+                        documentation." The file does this by summarizing the
+                        content of the blog post, which meets the needs of an
+                        "at a glance", executive summary or "TL;DR" for busy
+                        people.</p>
+
+                        <p>Not every scenario has been fulfilled at this point
+                        in the implementation of the website. There is an
+                        inordinate amount of time that has been spent on this
+                        unit, so to progress through the course some of the
+                        scenarios and design elements will be implemented
+                        later.</p>
+                    </section>
+                    <section id="html-critique">
                     <h3>Critique of the sample HTML documents</h3>
                     <h4>Sample 1</h4>
                     <p>Some of the issues with the first sample document are:
@@ -161,22 +211,109 @@
                         These other mistakes are opinionated, and not
                         necessarily wrong.
                     </p>
-                    <p>I improved <code>sample1.html</code> by giving it a
-                    title, specifying the written language of the document and
-                    the encoding of the HTML document. I also used semantic tags
-                    to section the different parts of the document (article and
-                    section semantic elements partition the document neatly,
-                    legibly, and meaningfully).</p>
+                    <p>I improved <a
+                    href="../sample1.html"><code>sample1.html</code></a> by
+                    giving it a title, specifying the written language of the
+                    document and the encoding of the HTML document. I also used
+                    semantic tags to section the different parts of the document
+                    (article and section semantic elements partition the
+                    document neatly, legibly, and meaningfully).</p>
                     <p>I included the header/navigational content of my website
-                        to return users to my actual website from this blog
-                        post.</p>
+                    to return users to my actual website from this blog
+                    post.</p>
                     <p>I fixed grammar, spelling, indentation, line length, and
                     more.</p>
                     <p>I fixed the lists, the table, and the nesting (the issue
-                    with intersecting nodes).
+                    with intersecting nodes).</p>
+                    <h4>Sample 2</h4>
+                    <p>The second sample has only one problem according to the
+                    transitional document type declaration for XHTML: there is a
+                    complete lack of content, which would confuse many
+                    users.</p>
+                    <p>You could argue that the title element is also incorrect,
+                    as an empty document is not necessarily a document that
+                    should have a title, therefore titling the document
+                    "Untitled Document" is misleading because of the implication
+                    of existing content.</p>
+                    <p>I improved <a
+                    href="../sample2.html"><code>sample2.html</code></a> by
+                    changing the document to a modern HTML5 document type, and
+                    adding a little bit of content: an under construction
+                    notification. I also added indentation and extra new lines
+                    to separate parts of the HTML source code. I also corrected
+                    the title by making it summarize the entire webpage, "Page
+                    under construction."</p>
+                    <p>The reference for label elements is the <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label">
+                        MDN HTML reference</a>.</p>
+                    <p>The reference for HTML4 is <a
+                    href="https://www.w3.org/TR/2018/SPSD-xhtml1-20180327/#normative">
+                        W3</a>.</p>
+                    </section>
+                    <section id="learning-outcomes">
+                        <h3>Learning outcomes</h3>
+                        <figure class="learning-outcomes-quotation">
+                            <blockquote>
+                                <p>When you have completed this unit, you should
+                                be able to write well-structured, easily
+                                maintained, standards-compliant, accessible HTML
+                                code.</p>
+                            </blockquote>
+                            <figcaption>
+                                — Athabasca University (n.d.). Study Guide Unit 2 HTML Site Building. In <cite>COMP 266: Intro to Web Programming</cite>. Athabasca University.
+                                <a href="https://scis.lms.athabascau.ca/mod/book/view.php?id=13061&chapterid=290">STUDY GUIDE UNIT 2 HTML SITE BUILDING</a>
+                            </figcaption>
+                        </figure>
+                        <p>I believe I have met the learning outcomes of this
+                        unit, because I have learned to and did write several
+                        readable, semantic HTML5 web pages for my website. I can
+                        maintain this code easily, and I am able to easily style
+                        it differently with different classless CSS files,
+                        showing that the HTML is not deprecated.</p>
+                        <p>The full learning outcome mappings are written in the
+                        document which is attached to the blog post on
+                        AthabascaU's Landing.</p>
+                    </section>
+                    <section id="successes-and-difficulties">
+                        <h3>Successes and difficulties</h3>
+                        <p>I have been a computer geek my whole life, so gaining
+                        a deeper understanding of HTML was not difficult. What
+                        was difficult was returning to the work on this unit
+                        several times, and each time being struck with the task
+                        of keeping the idea and structure of the website in my
+                        head. The design documentation was sat next to me on my
+                        desk top, but I hadn't reviewed it and so assessing what
+                        was needed was sometimes a little difficult.</p>
+                        <p>The other success I had with this unit was
+                        establishing some unwritten rules for how I want the
+                        site to be implemented, ie the semantic structure of the
+                        website.</p>
+                    </section>
+                    <section id="hindsight">
+                        <h3>Hindsight</h3>
+                        <p>Were I to repeat this unit's effort, I would first
+                        take a hard, long look at other students work to see
+                        what they did in regard to reflecting on the process.
+                        Learning HTML and structuring content is not difficult
+                        for me, but in the previous unit and this unit I have
+                        struggled to map my activities to learning outcomes or
+                        to reflect on the learning process and create a blog
+                        post for the course administrator to review and
+                        grade.</p>
+                        <p>The other thing I would do differently is create a
+                        template for my page, which has the head, body, header
+                        with nav, and footer elements filled in. I'd write a
+                        function to update the copyright and modification time
+                        information in Emacs Lisp, or learn the appropriate
+                        functions that indeed already exist in Emacs, and I
+                        would let Emacs format the file for me rather than using
+                        my own ad-hoc formatting. Howevever, I think I have
+                        still managed to do well in this unit.</p>
+                    </section>
                 </section>
             </article>
         </main>
+
         <footer>
             <p>🄯 2022 Bryce Carson. Except where otherwise stated, the content
                 on this website is the original work of Bryce Carson, excepting
@@ -189,7 +326,7 @@
                 otherwise indicated which license the content is under, please
                 use the contact form on the home page to inquire about the
                 licensing of some particular content.</p>
-            <p>Last updated 2022-11-06T03:02:07 PM</p>
+            <p>Last updated 2022-11-11T09:09:20 PM</p>
         </footer>
     </body>
 </html>
