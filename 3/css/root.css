@@ -1,0 +1,74 @@
+/* The following import statement comes from Google Fonts. Thanks, Google! */
+/* https://fonts.google.com/specimen/Alata?query=Alata#styles */
+/* https://fonts.google.com/specimen/Roboto?query=roboto */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@300&display=swap');
+
+body {
+    width: 45%;
+    margin: auto;
+    /* The following declaration comes from Google Fonts, previously attributed.
+       Thanks, Google! */
+    font-family: 'Alata', sans-serif;
+}
+
+#header-site-navigation-menu {
+    /* The fundamentals of CSS layout | Workshop */
+    /* https://www.youtube.com/watch?v=yMEjLBKyvEg */
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    margin: auto;
+    font-size: larger;
+}
+
+footer > p {
+    font-size: smaller;
+}
+
+main > section {
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 10px;
+
+    margin: 3em;
+    padding: 1em;
+}
+
+main article {
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 10px;
+
+    margin: 3em;
+    padding: 1em;
+}
+
+/* Blog */
+main article > h1 {
+    font-size: medium;
+}
+main article > h2 {
+    font-size: small;
+}
+main article > p {
+    font-weight: light;
+}
+.article-tags > li {
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;;
+    display: inline;
+    padding: 3px;
+}
+
+/* Border of the contact form on the about page */
+fieldset {
+    border: none;
+    background-color: gray;
+}
+
+code {
+    /* The following declaration comes from Google Fonts, previously attributed.
+       Thanks, Google! */
+    font-family: 'Roboto', monospace;
+}
