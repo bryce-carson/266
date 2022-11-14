@@ -1,32 +1,75 @@
 /* The following import statement comes from Google Fonts. Thanks, Google! */
 /* https://fonts.google.com/specimen/Alata?query=Alata#styles */
 /* https://fonts.google.com/specimen/Roboto?query=roboto */
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@300&display=swap'); */
 
 body {
-    width: 45%;
+    width: 95%
     margin: auto;
     /* The following declaration comes from Google Fonts, previously attributed.
        Thanks, Google! */
     font-family: 'Alata', sans-serif;
+    font-size: 14px;
+
+    /* https://www.w3schools.com/colors/tryit.asp?filename=trycolors_palettes3 */
+    color: #deddda;
+    background-color: #171717;
+}
+
+/* This media query is from W3Schools: */
+/*     https://www.w3schools.com/CSS/css_rwd_mediaqueries.asp */
+/* If the screen size is 600px wide or less, hide the element */
+/* @media only screen and (max-width: 600px) { */
+/*     div.example { */
+/*         display: none; */
+/*     } */
+/* } */
+/* The media query and min-width specification is based on the above to produce
+ * a simple mobile-first design. */
+
+@media only screen and (min-width: 1200px) {
+    body {
+        max-width: 55%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    body {
+        max-width: 95%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        max-width: 85%;
+        margin: auto;
+    }
 }
 
 #header-site-navigation-menu {
-    /* The fundamentals of CSS layout | Workshop */
-    /* https://www.youtube.com/watch?v=yMEjLBKyvEg */
-    display: grid;
-    grid-template-columns: 33.333% 33.333% 33.333%;
-    margin: auto;
+    display: flex;
     font-size: larger;
+    background-color: #232323;
+    padding-bottom: 15px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-footer > p {
+#header-site-navigation-menu  h1 {
+    margin: auto;
+}
+
+footer {
     font-size: smaller;
 }
 
 main > section {
     border-style: inset;
-    border-width: 5px;
+    border-width: 2px;
     border-radius: 10px;
 
     margin: 3em;
@@ -34,9 +77,12 @@ main > section {
 }
 
 main article {
-    border-style: inset;
+    border-style: solid;
     border-width: 5px;
     border-radius: 10px;
+    border-color: #333333;
+
+    background-color: #222222;
 
     margin: 3em;
     padding: 1em;
@@ -54,21 +100,105 @@ main article > p {
 }
 .article-tags > li {
     border: solid;
-    border-width: 2px;
+    border-width: 1px;
+    color: #c2c2b0;
     border-color: black;
     border-radius: 5px;;
     display: inline;
     padding: 3px;
 }
 
-/* Border of the contact form on the about page */
-fieldset {
-    border: none;
-    background-color: gray;
-}
-
 code {
     /* The following declaration comes from Google Fonts, previously attributed.
        Thanks, Google! */
     font-family: 'Roboto', monospace;
+}
+
+/*         */
+/* CONTACT */
+/*         */
+
+/* Border of the contact form on the about page */
+fieldset {
+    border: 1px;
+}
+
+input {
+    display: block;
+    padding: 3px;
+    margin: 5px;
+}
+
+/* https://cssbuttongenerator.com/ */
+input[type=submit] {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:#566963;
+    font-weight:bold;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    text-shadow:inset 0px -1px 0px #2b665e;
+    background:linear-gradient(#768d87, #6c7c7c);
+}
+
+input[type=submit]:hover {
+    background: linear-gradient(#6c7c7c, #768d87);
+}
+
+
+/* HOME PAGE */
+/* Anchors to return to the beginning of sections. */
+section>a:last-child {
+    color: #ffffff;
+}
+section:nth-child(even) {
+    background-color: #242424;
+}
+section:nth-child(odd) {
+    background-color: #303030;
+}
+
+/* TABLE */
+table {
+    border: solid;
+    border-width: 2px;
+    border-radius: 0px;
+
+    font-family: Serif;
+}
+
+thead, tbody, tr, th, td {
+    border: solid;
+}
+
+a:visited {
+    color: #1a5fb4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f6f5f4;
+}
+
+#section-construction {
+    text-align: center;
+}
+
+#construction-progress {
+    display: block;
+    margin: auto;
+}
+
+#section-table-of-contents:before {
+    content: "Table of contents"
+}
+
+article:hover {
+    scale: 1.0085;
 }

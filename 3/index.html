@@ -5,6 +5,7 @@
     <head>
         <meta charset="UTF-8" >
         <title>cybe🜆's personal website ⸺ About</title>
+        <link rel="stylesheet" href="/css/root.css" type="text/css">
 
         <!-- BEGIN: https://realfavicongenerator.net/ -->
         <link rel="apple-touch-icon"
@@ -32,39 +33,39 @@
     <body>
         <header>
             <nav>
-                <span name="header-site-navigation-menu">
+                <span id="header-site-navigation-menu">
                     <h1><a href="/blog/index.html">Blog</a></h1>
                     <h1><a href="/portfolio/index.html">Portfolio</a></h1>
-                    <h1><a>About</a></h1>
+                    <h1><a href="/index.html">About</a></h1>
                 </span>
             </nav>
         </header>
         <main>
-            <section name="section-construction">
+            <section id="section-construction">
                 <p>This website is under construction.</p>
                 <label>Construction progress
                     <progress id="construction-progress" max="100"
                     value="66.666">66.̅6̅6̅6</progress>
                 </label>
             </section>
-            <section name="section-table-of-contents">
+            <section id="section-table-of-contents">
                 <nav>
                     <ul>
                         <li>
-                            <a href="#section-about-div">About this website</a>
+                            <a href="#section-about-header">About this website</a>
                         </li>
                         <ul>
                             <li>
-                                <a href=""></a>
+                                <a href="#section-about-software">Software used in creation</a>
                             </li>
                         </ul>
-                        <li><a href="#section-legal-div">Legal</a></li>
-                        <li><a href="#section-contact-div">Contact</a></li>
+                        <li><a href="#section-legal-header">Legal</a></li>
+                        <li><a href="#section-contact-header">Contact</a></li>
                     </ul>
                 </nav>
             </section>
-            <section name="section-about">
-                <div name="section-about-div" id="section-about-header">
+            <section id="section-about">
+                <div id="section-about-header">
                     <h1>About this website</h1>
                     <p>This website is a project website for a first course in
                     web programming (read, JavaScript). The course is designed
@@ -125,7 +126,7 @@
                     <!-- END: Citation: https://developer.mozilla.org/en-US/docs
                                                 /Web/HTML/Element/blockquote -->
                 </div>
-                <div name="section-about-software">
+                <div id="section-about-software">
                     <h2>How this website was created</h2>
                     <!-- This table needs to be overhauled after I read more
                     about tables, accessibility, and HTML in general. -->
@@ -137,7 +138,7 @@
                              table#try_it -->
                         <thead>
                             <tr>
-                                <th colspan="2">Software used across the
+                                <th colspan="5">Software used across the
                                 site</th>
                             </tr>
                         </thead>
@@ -183,8 +184,8 @@
                 <a href="#section-about-header">Return to beginning of
                 section.</a>
             </section>
-            <section name="section-legal">
-                <div name="section-legal-div" id="section-legal-header">
+            <section id="section-legal">
+                <div id="section-legal-header">
                     <h1>Legal</h1>
                     <p>Software, unless explicitly stated otherwise, is the
                     copyrighten material of its respective owners and no claim
@@ -210,8 +211,8 @@
                 <a href="#section-legal-header">Return to beginning of
                 section.</a>
             </section>
-            <section name="section-contact">
-                <div name="section-contact-div" id="section-contact-header">
+            <section id="section-contact">
+                <div id="section-contact-header">
                     <h1 name="contact">Contact us!</h1>
                     <p>Please use the form below to email us your suggestions
                     for future articles, blog posts, or to ask other questions
