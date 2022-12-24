@@ -1,21 +1,39 @@
+/*  ______     ______     ______     __         ______     ______     ______     */
+/* /\  ___\   /\  __ \   /\  __ \   /\ \       /\  ___\   /\  == \   /\  ___\    */
+/* \ \ \____  \ \ \/\ \  \ \ \/\ \  \ \ \____  \ \  __\   \ \  __<   \ \___  \   */
+/*  \ \_____\  \ \_____\  \ \_____\  \ \_____\  \ \_____\  \ \_\ \_\  \/\_____\  */
+/*   \/_____/   \/_____/   \/_____/   \/_____/   \/_____/   \/_/ /_/   \/_____/  */
 /* The following import statement comes from Google Fonts. Thanks, Google! */
 /* https://fonts.google.com/specimen/Alata?query=Alata#styles */
 /* https://fonts.google.com/specimen/Roboto?query=roboto */
-/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-    width: 95%
-    margin: auto;
-    /* The following declaration comes from Google Fonts, previously attributed.
-       Thanks, Google! */
-    font-family: 'Alata', sans-serif;
-    font-size: 14px;
+:root {
+    /* BEGIN: Colour palette from Coolers */
+    /* Dark to light */
+    /* https://coolors.co/palette/22223b-4a4e69-9a8c98-c9ada7-f2e9e4 */
+    /* CSS HSL */
+    --space-cadet: hsla(240, 27%, 18%, 1);
+    --independence: hsla(232, 17%, 35%, 1);
+    --heliotrope-gray: hsla(309, 6%, 58%, 1);
+    --silver-pink: hsla(11, 24%, 72%, 1);
+    --isabelline: hsla(21, 35%, 92%, 1);
 
-    /* https://www.w3schools.com/colors/tryit.asp?filename=trycolors_palettes3 */
-    color: #deddda;
-    background-color: #171717;
+    /* Light to dark */
+    /* https://coolors.co/cfdbd5-e8eddf-f5cb5c-242423-333533 */
+    /* CSS HSL */
+    --gainsboro: hsla(150, 14%, 84%, 1);
+    --alabaster: hsla(81, 28%, 90%, 1);
+    --maize-crayola: hsla(44, 88%, 66%, 1);
+    --eerie-black: hsla(60, 1%, 14%, 1);
+    --jet: hsla(120, 2%, 20%, 1);
 }
 
+/*  __    __     ______     _____     __     ______     */
+/* /\ "-./  \   /\  ___\   /\  __-.  /\ \   /\  __ \    */
+/* \ \ \-./\ \  \ \  __\   \ \ \/\ \ \ \ \  \ \  __ \   */
+/*  \ \_\ \ \_\  \ \_____\  \ \____-  \ \_\  \ \_\ \_\  */
+/*   \/_/  \/_/   \/_____/   \/____/   \/_/   \/_/\/_/  */
 /* This media query is from W3Schools: */
 /*     https://www.w3schools.com/CSS/css_rwd_mediaqueries.asp */
 /* If the screen size is 600px wide or less, hide the element */
@@ -24,59 +42,147 @@ body {
 /*         display: none; */
 /*     } */
 /* } */
-/* The media query and min-width specification is based on the above to produce
- * a simple mobile-first design. */
-
-@media only screen and (min-width: 1200px) {
-    body {
-        max-width: 55%;
-        margin: auto;
-    }
-}
-
+/* The media query and min-width specification is based on the above to produce */
+/* a simple mobile-first design. */
 @media only screen and (max-width: 720px) {
-    body {
-        max-width: 95%;
+    main {
+        min-width: 95%;
         margin: auto;
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    body {
-        max-width: 85%;
+@media only screen and (min-width: 721px){
+    main {
+        max-width: 90%;
         margin: auto;
     }
+}
+
+@media only screen and (min-width: 1201px) {
+    main {
+        max-width: 70%;
+        margin: auto;
+    }
+}
+
+/*  __  __     __   __     __     __   __   ______     ______     ______     ______     __         */
+/* /\ \/\ \   /\ "-.\ \   /\ \   /\ \ / /  /\  ___\   /\  == \   /\  ___\   /\  __ \   /\ \        */
+/* \ \ \_\ \  \ \ \-.  \  \ \ \  \ \ \'/   \ \  __\   \ \  __<   \ \___  \  \ \  __ \  \ \ \____   */
+/*  \ \_____\  \ \_\\"\_\  \ \_\  \ \__|    \ \_____\  \ \_\ \_\  \/\_____\  \ \_\ \_\  \ \_____\  */
+/*   \/_____/   \/_/ \/_/   \/_/   \/_/      \/_____/   \/_/ /_/   \/_____/   \/_/\/_/   \/_____/  */
+body {
+    margin: auto;
+
+    /* The following declaration comes from Google Fonts, previously attributed.
+       Thanks, Google! */
+    font-family: 'Alata', sans-serif;
+    /* font-size: larger; */
+    color: var(--alabaster);
+
+    background-color: var(--eerie-black);
+}
+
+a {
+    color: var(--isabelline);
+}
+
+a:hover {
+    color: var(--maize-crayola);
+}
+
+a:visited {
+    color: var(--silver-pink);
+}
+
+table {
+    max-width: 70%;
+    margin: auto;
+}
+
+/*  __  __     ______     ______     _____     ______     ______     */
+/* /\ \_\ \   /\  ___\   /\  __ \   /\  __-.  /\  ___\   /\  == \    */
+/* \ \  __ \  \ \  __\   \ \  __ \  \ \ \/\ \ \ \  __\   \ \  __<    */
+/*  \ \_\ \_\  \ \_____\  \ \_\ \_\  \ \____-  \ \_____\  \ \_\ \_\  */
+/*   \/_/\/_/   \/_____/   \/_/\/_/   \/____/   \/_____/   \/_/ /_/  */
+header {
+    border-width: 20px;
+    border-style: outset;
+    border-color: var(--eerie-black);
+    /* DONE: outset border's bottom and right cannot be, at least not */
+    /*       reliably. */
+    /* border-bottom-color: var(--jet); */
+    /* border-right-color: var(--jet); */
+    background-color: hsla(120, 2%, 8%, 1);
 }
 
 #header-site-navigation-menu {
+    margin: auto;
     display: flex;
     font-size: larger;
-    background-color: #232323;
-    padding-bottom: 15px;
-    border-bottom: solid;
-    border-bottom-width: 1px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 #header-site-navigation-menu  h1 {
     margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    border-style: outset;
+    border-size: 1px;
+    border-color: var(--gainsboro);
+    border-radius: 3px;
+
+    /* FIXME: Visually center the text within its border. Breaks on user-style
+     change of default font size. */
+    padding: 1px 15px 8px 15px;
 }
 
-footer {
-    font-size: smaller;
+#header-site-navigation-menu {
+    max-width: 1200px;
 }
 
+a:visited {
+    color: var(--isabelline);
+}
+
+/*  __    __     ______     __     __   __     */
+/* /\ "-./  \   /\  __ \   /\ \   /\ "-.\ \    */
+/* \ \ \-./\ \  \ \  __ \  \ \ \  \ \ \-.  \   */
+/*  \ \_\ \ \_\  \ \_\ \_\  \ \_\  \ \_\\"\_\  */
+/*   \/_/  \/_/   \/_/\/_/   \/_/   \/_/ \/_/  */
 main > section {
-    border-style: inset;
     border-width: 2px;
     border-radius: 10px;
 
-    margin: 3em;
-    padding: 1em;
+    /* NOTE: left and right margin set below with width. */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-color: var(--jet);
+
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Improve readability */
+main > section h1, h2 {
+    margin: 0px;
+}
+/* Reduce the margin of the first paragraph */
+main > section h1, h2 + p:nth-child(1) {
+    margin: 0px;
 }
 
 main article {
+    max-width: 55%;
+    margin: auto;
+    margin-top: 32px;
+
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
@@ -84,34 +190,31 @@ main article {
 
     background-color: #222222;
 
-    margin: 3em;
     padding: 1em;
-}
-
-/* Blog */
-main article > h1 {
-    font-size: medium;
-}
-main article > h2 {
-    font-size: small;
-}
-main article > p {
-    font-weight: light;
-}
-.article-tags > li {
-    border: solid;
-    border-width: 1px;
-    color: #c2c2b0;
-    border-color: black;
-    border-radius: 5px;;
-    display: inline;
-    padding: 3px;
 }
 
 code {
     /* The following declaration comes from Google Fonts, previously attributed.
        Thanks, Google! */
     font-family: 'Roboto', monospace;
+}
+
+#section-construction, #section-table-of-contents {
+    border-style: solid;
+    border-color: var(--spaced-cadet);
+    border-width: 2px;
+    border-radius: 10px;
+
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-about > a:last-child {
+    /* NOTE: this element must be block-displayed, or the table above violates
+       its space. */
+    display: block;
+    margin-top: 16px;
 }
 
 /*         */
@@ -129,7 +232,7 @@ input {
     margin: 5px;
 }
 
-/* https://cssbuttongenerator.com/ */
+/* BEGIN: https://cssbuttongenerator.com/ */
 input[type=submit] {
     font-size:15px;
     font-family:Arial;
@@ -151,18 +254,39 @@ input[type=submit] {
 input[type=submit]:hover {
     background: linear-gradient(#6c7c7c, #768d87);
 }
+/* END: https://cssbuttongenerator.com/ */
 
+/*  ______   ______     ______     ______   ______     ______     */
+/* /\  ___\ /\  __ \   /\  __ \   /\__  _\ /\  ___\   /\  == \    */
+/* \ \  __\ \ \ \/\ \  \ \ \/\ \  \/_/\ \/ \ \  __\   \ \  __<    */
+/*  \ \_\    \ \_____\  \ \_____\    \ \_\  \ \_____\  \ \_\ \_\  */
+/*   \/_/     \/_____/   \/_____/     \/_/   \/_____/   \/_/ /_/  */
+footer {
+    border-top-width: 2px;
+    border-top-style: dashed;
+    border-top-color: var(--jet);
+
+    font-size: smaller;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer > p {
+    max-width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* HOME PAGE */
+section#section-construction {
+    font-family: 'Roboto', monospace;
+    font-weight: 700;
+}
 /* Anchors to return to the beginning of sections. */
 section>a:last-child {
     color: #ffffff;
-}
-section:nth-child(even) {
-    background-color: #242424;
-}
-section:nth-child(odd) {
-    background-color: #303030;
 }
 
 /* TABLE */
@@ -174,12 +298,26 @@ table {
     font-family: Serif;
 }
 
-thead, tbody, tr, th, td {
+th[colspan="2"] {
+    border-bottom: solid;
+    border-width: 1px;
+    border-bottom-style: dashed;
+}
+
+thead {
     border: solid;
 }
 
-a:visited {
-    color: #1a5fb4;
+/* How do I specify the size of the image? */
+/* https://stackoverflow.com/a/8978010/14211497 */
+td.software-name#emacs:before {
+    background-image: url('/img/emacs-screenshot.png');
+    background-size: 60px 60px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    content: "";
+    margin-right: 4px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -199,6 +337,7 @@ h1, h2, h3, h4, h5, h6 {
     content: "Table of contents"
 }
 
-article:hover {
-    scale: 1.0085;
+main a article:nth-child(1) {
+    margin-top: 32px;
 }
+

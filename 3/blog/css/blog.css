@@ -1,0 +1,35 @@
+main article > h1 {
+    font-size: medium;
+}
+main article > h2 {
+    font-size: small;
+}
+main article > p {
+    font-weight: light;
+}
+
+.article-tags:hover^p{
+    background-color: #a0a0a0;
+    display: inline;
+    padding: 3px;
+}
+
+.article-tags > li {
+    border: solid;
+    border-width: 1px;
+    color: #c2c2b0;
+    border-color: black;
+    border-radius: 5px;;
+    display: inline;
+    padding: 3px;
+}
+
+.article-tags > li:hover {
+    border: dashed;
+    border-width: 2px;
+    color: #c2c2b0;
+    border-color: black;
+    border-radius: 5px;;
+    display: inline;
+    padding: 3px;
+}
