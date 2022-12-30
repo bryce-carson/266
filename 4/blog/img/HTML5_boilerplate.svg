@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg396"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="HTML5_boilerplate.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview398"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3930079"
+     inkscape:cx="364.31954"
+     inkscape:cy="181.62137"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs393">
+    <rect
+       x="413.23292"
+       y="177.74652"
+       width="346.22695"
+       height="166.95215"
+       id="rect318" />
+    <rect
+       x="283.75605"
+       y="54.146321"
+       width="456.50946"
+       height="87.971428"
+       id="rect1115" />
+    <rect
+       x="376.99367"
+       y="180.21939"
+       width="164.41315"
+       height="148.83508"
+       id="rect1109" />
+    <rect
+       x="415.44335"
+       y="523.27825"
+       width="24.254823"
+       height="64.349962"
+       id="rect783" />
+    <rect
+       x="32.943863"
+       y="245.67778"
+       width="712.51324"
+       height="311.26336"
+       id="rect571" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,12.848754,-38.675148)"
+       id="text569"
+       style="font-size:16px;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif, Normal';font-variant-numeric:oldstyle-nums;white-space:pre;shape-inside:url(#rect571);opacity:0.75;fill:#ffbe6f;stroke:#000000"><tspan
+         x="32.943359"
+         y="259.87967"
+         id="tspan518"><tspan
+           style="font-family:'agave Nerd Font';-inkscape-font-specification:'agave Nerd Font';fill:#000000;stroke:none"
+           id="tspan516">&lt;!DOCTYPE html&gt;
+</tspan></tspan><tspan
+         x="32.943359"
+         y="280.0816"
+         id="tspan522"><tspan
+           style="font-family:'agave Nerd Font';-inkscape-font-specification:'agave Nerd Font';fill:#000000;stroke:none"
+           id="tspan520">&lt;html lang=&quot;en-US&quot;&gt;
+</tspan></tspan><tspan
+         x="32.943359"
+         y="300.28354"
+         id="tspan526"><tspan
+           style="font-family:'agave Nerd Font';-inkscape-font-specification:'agave Nerd Font';fill:#000000;stroke:none"
+           id="tspan524">  &lt;head&gt;
+</tspan></tspan><tspan
+         x="32.943359"
+         y="320.48547"
+         id="tspan530"><tspan
+           style="font-family:'agave Nerd Font';-inkscape-font-specification:'agave Nerd Font';fill:#000000;stroke:none"
+           id="tspan528">    &lt;meta charset=&quot;utf-8&quot; /&gt;
+</tspan></tspan><tspan
+         x="32.943359"
+         y="340.68741"
+         id="tspan534"><tspan
+           style="font-family:'agave Nerd Font';-inkscape-font-specification:'agave Nerd Font';fill:#000000;stroke:none"
+           id="tspan532">    &lt;title&gt;My page title&lt;/title&gt;
+</tspan></tspan><tspan
+         x="32.943359"
+         y="360.88934"
+         id="tspan538"><tspan
+           style="font-family:'agave Nerd Font';-inkscape-font-specification:'agave Nerd Font';fill:#000000;stroke:none"
+           id="tspan536">  &lt;/head&gt;
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text781"
+       style="fill:#000000;-inkscape-font-specification:'agave Nerd Font';font-family:'agave Nerd Font';font-size:16px;font-variant-numeric:oldstyle-nums;stroke:none;opacity:0.75000001;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;white-space:pre;shape-inside:url(#rect783)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1113"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'agave Nerd Font';-inkscape-font-specification:'agave Nerd Font';font-variant-numeric:oldstyle-nums;white-space:pre;shape-inside:url(#rect1115);opacity:0.75;fill:#000000;stroke:none"><tspan
+         x="283.75586"
+         y="68.146484"
+         id="tspan540">The special doctype element defines this document in the </tspan><tspan
+         x="283.75586"
+         y="88.146484"
+         id="tspan542">XML namespace. Without this element, XML renderers would </tspan><tspan
+         x="283.75586"
+         y="108.14648"
+         id="tspan544">not be able to parse this document at all.</tspan></text>
+    <path
+       style="opacity:0.75;fill:#8ff0a4;stroke:#000000;stroke-width:0.264245;stroke-dasharray:none"
+       d="m 34.174161,34.619206 v 1.226178 h 25.231068 v -1.220071"
+       id="path1957" />
+    <path
+       style="opacity:0.75;fill:#8ff0a4;stroke:#000000;stroke-width:0.293562;stroke-dasharray:none"
+       d="M 42.653575,45.269085 V 46.47356 H 74.355037 V 45.275083"
+       id="path2179" />
+    <path
+       style="opacity:0.75;fill:#8ff0a4;stroke:#000000;stroke-width:0.273966;stroke-dasharray:none"
+       d="m 24.010263,29.30347 v 1.219149 h 27.278191 v -1.213077"
+       id="path2181" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'agave Nerd Font';-inkscape-font-specification:'agave Nerd Font';font-variant-numeric:oldstyle-nums;opacity:0.75;fill:#8ff0a4;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none"
+       x="10.003925"
+       y="16.531807"
+       id="text2239"><tspan
+         sodipodi:role="line"
+         id="tspan2237"
+         style="stroke-width:0.265"
+         x="10.003925"
+         y="16.531807">&lt;!-- HELLO WORLD --&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'agave Nerd Font';-inkscape-font-specification:'agave Nerd Font';font-variant-numeric:oldstyle-nums;opacity:0.75;fill:#8ff0a4;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none"
+       x="10.003925"
+       y="19.70681"
+       id="text2293"><tspan
+         sodipodi:role="line"
+         id="tspan2291"
+         style="stroke-width:0.265"
+         x="10.003925"
+         y="19.70681">&lt;!SPECIAL_ELEMENT attribute&gt;</tspan></text>
+    <path
+       style="opacity:0.75;fill:#ed333b;stroke:#000000;stroke-width:0.387504;stroke-dasharray:none"
+       d="m 30.215598,52.332611 v 1.134516 h 58.643507 v -1.128866"
+       id="path2295" />
+    <path
+       style="opacity:0.75;fill:#ed333b;stroke:#000000;stroke-width:0.387504;stroke-dasharray:none"
+       d="m 30.215598,48.357034 v -1.134516 h 58.643507 v 1.128866"
+       id="path2297" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-11.990497,-2.5456923)"
+       id="text316"
+       style="font-size:16px;font-family:'agave Nerd Font';-inkscape-font-specification:'agave Nerd Font';font-variant-numeric:oldstyle-nums;white-space:pre;shape-inside:url(#rect318);opacity:0.75;fill:#f5c211;stroke:#8ff0a4;stroke-width:1.00157"><tspan
+         x="413.23242"
+         y="191.74609"
+         id="tspan548"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan546">Reference and code source: https://</tspan></tspan><tspan
+         x="413.23242"
+         y="211.74609"
+         id="tspan552"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan550">developer.mozilla.org/en-US/docs/Learn/</tspan></tspan><tspan
+         x="413.23242"
+         y="231.74609"
+         id="tspan556"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan554">HTML/Introduction_to_HTML/</tspan></tspan><tspan
+         x="413.23242"
+         y="251.74609"
+         id="tspan560"><tspan
+           style="fill:#000000;stroke:none"
+           id="tspan558">Document_and_website_structure</tspan></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "asciidoctor": "^2.2.6",
+    "fs": "^0.0.1-security"
+  }
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- NOTE: DOCTYPE HTML
+     is how I wrote the first line of the document for a bit. The
+     case-insensitive nature of the HTML syntax let me write the initialism HTML
+     in a visually pleasing syntax, and DOCTYPE is normally in majiscule anyways.
+-->
+<!-- NOTE: This document was originally `sample1.html`, taken from COMP 266 at
+     Athabasca University. That file was assigned as practice in reading
+     incorrect HTML and correcting it. The present content of the file,
+     entirely, likely does not contain any remnants other than trivial bytes
+     that raise Theseusian questions about identity. -->
+<!-- Elements and attributes I learned of from Emmet, the compressed syntax for
+     HTML and CSS: the lang attribute of the html top-level element; the charset
+     attribute of a meta tag. -->
+<!-- I know HTML, it's just a matter of learning _semantic_ HTML and the modern
+usage of attributes and such. -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>A completed "Sample HTML document" critiqueing exercise"</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <span name="header-site-navigation-menu">
+                    <ul>
+                        <li><a href="/blog/index.html">Blog</a></li>
+                        <li><a href="/portfolio/index.html">Portfolio</a></li>
+                        <li><a href="/index.html">About</a></li>
+                    </ul>
+                </span>
+            </nav>
+        </header>
+
+        <article>
+            <section>
+                <h1 class="indeed">This page is poorly written</h1>
+                <!-- NOTE: discuss, and rebut, the old 80-col rule. -->
+                <p>There are many things wrong with this page. It's not so bad
+                    that it won't work on most browsers, but it has many things
+                    that could be written much better. Your job is to use this
+                    code as a starting point and improve it.</p>
+                <h2>You could, of course, cheat!</h2>
+                <p>Meaning academic misconduct? It's not <span class="italic">
+                    actually</span> cheating if you're endorsing it as a
+                    potential method of completing the course learning
+                    objectives.</p>
+            </section>
+
+            <section>
+                <h1>I wouldn't like to cheat.</h1>
+                <p>There is nothing wrong with using an HTML cleaner such as
+                    HTMLTidy, nor in using an accessibility checker like the W3
+                    site to ensure yourb code works well. In fact, we would
+                    highly recommend that you do this whenever you create web
+                    pages because they help to ensure your code is compatible
+                    with standards and accessible to as many people as possible.
+                    Similarly, it makes perfect sense to use a WYSIWYG HTML
+                    editor such as Dreamweaver orthe open source KompoZer when
+                    actually writing web pages. For the purposes of this
+                    exercise, however, you may learn more effectively if you
+                    avoid doing that until you are fairly comfortable that you
+                    have mad as many changes as you can with just the aid of
+                    references. The main reason we are learning HTML is so that
+                    we can write dynamic JavaScript programs that are embedded
+                    within and which use and manipulate HTML, CSS and other
+                    browser technologies. If you take short cuts at this point,
+                    you will find it <span class="italic">much</span> harder
+                    later on. Remember, while marks will be lost if you don't
+                    take care to deal with the problems on these pages,the main
+                    things we are looking for relate to your ability to use the
+                    technology well and effectively, paying close attention to
+                    the design needs you have already identified.</p>
+            </section>
+
+            <section>
+                <h1>Adding links</h1>
+                <p> <a href="sample2.html"> This is a link to the other page in
+                    this badly written pair of pages </a>. It uses a relative
+                    URL to point to a file in the same file system. This is
+                    necessary if you are building a site for portability, so
+                    that you can move it from one place (say your local
+                    computer) to another (say, your website). </p>
+
+                <p>
+                    <a href=http://www.athabascau.ca>
+                        This is a link to Athabasca's main site.
+                    </a>
+                    <!-- When a line break occurs in an HTML source file, do you
+	                       need to retain a space? What are the exact whitespace
+	                       rules? I am an exacting writer and programmer, I like
+	                       to be right. -->
+                    It uses an absolute URL that points to a unique web address.
+                    When the site moves, it will still point to that same
+                    address.
+                </p>
+            </section>
+
+            <section>
+                <h3>Using pictures</h3>
+                <p>Pictures are not a part of a web page - the HTML page
+                    includes a link that tells the browser to embed the image
+                    (if it can) and some extra optional attributes such as its
+                    position relative to the text. It is far preferable to use
+                    stylesheets for this kind of formatting, but that's a
+                    subject for the next unit.</p>
+                <!-- Image elements are void elements, they do not need to be
+	                   closed, and do not need any trialing slash, unless you wish
+	                   your document to conform to XHTML or XML standards. -->
+                <img src=aulogo.gif>
+            </section>
+
+            <section>
+                <h3>Making lists</h3>
+                <ul>
+	                  <li>lists are useful</li>
+	                  <li>for many things,</li>
+	                  <li>and can be unordered,</li>
+	                  <ul>
+		                    <li>indented</li>
+		                    <!-- I'm not sure if these two need to be another list
+		                    item or not. -->
+		                    <li>
+		                        <ol>
+			                          <li>numbered,</li>
+			                          <li>like this</li>
+		                        </ol>
+		                    </li>
+	                  </ul>
+	                  <li>and more</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Making tables</h3>
+                <!-- This table was so horrendous I have no inkling about
+                     whether or not the table had any conceivable, repairable
+                     structure, layout, or semantics whatsoever. This table was
+                     from hell. It WILL be utterly deleted at the soonest
+                     opportunity. -->
+                <table border=1>
+                    <tr>
+                        <td>Tables should only be used for tabular data</td>
+                        <td>and never for layout</td>
+                    </tr>
+                    <tr>
+                        <td>but many people do</td>
+                        <td>use them for layout</td>
+                    </tr>
+                    <tr>
+                        <!-- DONE: Is the td colspan attribute deprecated? -->
+                        <td colspan=2>It's not good for accessibility.
+                            Stylesheets work much better for this</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <form name="tentacle-product">
+                    <fieldset>
+                        <legend>Tentacles on your product</legend>
+                        <label>
+                            Input the number of tentacles that should be present
+                            on your invertebrate model. Our moulding process
+                            only supports invertebrates with a count of
+                            tentacles between eight and sixteen. If you need a
+                            number of tentacles outside this range (which you
+                            otherwise might attempt to input with a fractional
+                            number [which won't work in this input]), or any
+                            mutated or malformed tentacles, please contact us
+                            with the below form to arrange a special order.
+                            <input type="number" name="tentacle-count"
+                                   pattern="^\d+$" min=8 max=16 step=1>
+                        </label>
+                        <input type="submit">
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+    </body>
+</html>

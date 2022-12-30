@@ -1,0 +1,37 @@
+This is an explanation and critique of accessible_menu.js.
+
+Explanation
+
+Three constants are defined, each related to the nav HTML element by name: navToggle, navList, and navLinks. The three constants are defined as the result of querySelector and querySelectorAll expression results, where each JavaScript statement creates the constant by assigning the value returned by the expression on the right hand side of the assignment operator, =, to the constant name on the left hand side of the operator.
+
+There are three classes used to select one, one, and all elements with these classes from the tree representing the document (the DOM; the document object is modeled as a tree). These classes represent the toggle button itself, the list object containing the list items which compose the menu items, and list links which are the hyperlink elements within those list items.
+
+Two event listeners are registered, each using anonymous functions rather than functions defined in the global scope (because neither is very long, and the event handler [listener] is never deregistered). The first handler is registered to click events on the navToggle class, and the other is registered to all keydown events on the document object itself.
+
+The first event listener, also called a handler, is a conditional branch of two compound statements, the positive and the negative for the Boolean result of the expression checking for the presence of the hidden attribute on the navList object.
+
+If the navList object has the hidden attribute, it is removed after setting a Boolean accessibility attribute, aria-expanded, to true. This attribute informs screen readers and other accessibility technologies that a collapsible element is presently expanded, displaying its children elements or hiding them. The last statement in the positive block of the conditional compound statement moves the keyboard and element focus to the first element of the navList array object. Focusability is a property of certain elements in HTML, such as text areas, menu items, radio buttons, etc. When an element is focused it is receiving some form of input, or will receive such input when it is provided to the window or document objects through user interaction.
+
+If the navList object is not hidden, if it does not have the hidden attribute, then the attribute is added and also set to the Boolean value of true. Then the aria-expanded attribute is set to false.
+
+This event handler effectively enables and disables CSS rules which style the menu list and its children elements (navigation links). The actual responsibility for displaying and hiding the object is given to CSS, which is concerned with presentation of content in web design.
+
+The second event listener is composed of two top-level conditional blocks, the first which captures and then ignores (by returning from the function scope without supplying a value) key composition or the effects of Android software-defined keyboards.
+
+The other conditional checks that the Escape key is depressed. If the key is depressed, the inner conditional checks that the navList is not hidden. Finally, if both conditionals have passed then the menu is collapsed and the hidden attribute restored to the true state.
+
+This allows keyboard-only users, or users whose accessible human-computer interface emulates a keyboard or primarily outputs keyboard events, to easily close the menu without using a pointing device or an emulator of one.
+
+Critique
+
+The first event listener is well written. The comment explains the purpose of the focus method call on the navLinks array element, but since the constants in the script are well named and defined in the same scope, they are not difficult to understand without the comment.
+
+The second event listener is well commented, indicating the purpose of the first conditional which may otherwise be obscure. The second conditional is commented to indicate what key corresponds to the integer supplied, but the second conditional could be improved by barfing the inner if and slurping it into the outer if, using a compound conditional statement as in the first conditional block statement earlier in the anonymous function.
+
+    // Close menu with ESC key
+    if (!navList.hasAttribute('hidden') && (event.keyCode === 27)) {
+        navToggle.setAttribute('aria-expanded', 'false');
+        navList.setAttribute('hidden', 'true');
+    }
+
+Overall, the style (naming, indentation, brace placement) is consistent and in good taste.

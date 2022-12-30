@@ -1,0 +1,65 @@
+/* === THE BELOW CSS WAS COMPILED FROM accessible_menu.scss using sass version 1.57.1 === */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+[hidden] {
+  display: none;
+}
+
+:focus {
+  outline: 2px solid red;
+}
+
+:focus:not(:focus-visible),
+:focus:not(:-moz-focusring) {
+  outline: 0;
+}
+
+:focus-visible,
+:-moz-focusring {
+  outline: 2px solid red;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  padding: 1em;
+}
+
+.nav__toggle {
+  font-size: 1.3rem;
+  padding: 0.4em 1.3em;
+  border: 0;
+  cursor: pointer;
+  background-color: hsl(169deg, 90%, 30%);
+  color: #FFFFFF;
+  font-weight: 700;
+  transition: all 200ms ease-in-out;
+}
+.nav__toggle:hover {
+  background-color: hsl(169deg, 90%, 45%);
+}
+
+.nav__list {
+  font-size: 1em;
+  background-color: hsl(169deg, 90%, 13%);
+  padding: 0;
+  max-width: 20ch;
+  padding: 0;
+  margin: 5px 0 0;
+}
+.nav__list .nav__list-item {
+  list-style-type: none;
+}
+.nav__list .nav__list-item .nav__list-link {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  background-color: hsl(169deg, 90%, 13%);
+}
+.nav__list .nav__list-item .nav__list-link:hover {
+  background-color: hsl(169deg, 90%, 30%);
+  transition: all 200ms ease-in-out;
+}
+/*# sourceMappingURL=accessible_menu.css.map */

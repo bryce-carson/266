@@ -1,0 +1,77 @@
+/* Copyright (c) 2022 by James (https://codepen.io/jamesevers/pen/MWowqxQ) */
+
+/* Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: */
+
+/* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. */
+
+/* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
+
+[hidden] {
+  display: none;
+}
+
+// Focus styles for keyboard users
+:focus {
+    outline: 2px solid red;
+}
+
+:focus:not(:focus-visible),
+:focus:not(:-moz-focusring) {
+    outline: 0;
+}
+
+:focus-visible,
+:-moz-focusring {
+    outline: 2px solid red;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  min-height: 100vh;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  padding: 1em;
+}
+
+.nav__toggle {
+  font-size: 1.3rem;
+  padding: 0.4em 1.3em;
+  border: 0;
+  cursor: pointer;
+  background-color: hsl(169, 90%, 30%);
+  color: #FFFFFF;
+  font-weight: 700;
+  transition: all 200ms ease-in-out;
+  
+  &:hover {
+    background-color: hsl(169, 90%, 45%);
+  }
+}
+
+.nav__list {
+  font-size: 1em;
+  background-color: hsl(169, 90%, 13%);
+  padding: 0;
+  max-width: 20ch;
+  padding: 0;
+  margin: 5px 0 0;
+  
+  .nav__list-item {
+    list-style-type: none;
+    
+    .nav__list-link {
+      display: block;
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      background-color: hsl(169, 90%, 13%);
+      
+      &:hover {
+        background-color: hsl(169, 90%, 30%);
+        transition: all 200ms ease-in-out;
+      }
+    }
+  }
+}
+
