@@ -1,0 +1,19 @@
+I have read CSS before, but it's meaning wasn't understood; the box model, floating and flex or grid layout models were unknown to me, so the visual and functional meaning of the rules and declarations were lost on me whenever I read it. Since I was twelve, sixteen years ago, I have been looking at the source code of web pages I visit; it is a continual fascination of mine.
+
+My previous exposure to programming, and more recently classless CSS stylesheets (which can be used as bookmarklets to style outdated or unstyled web pages), effected a continuing sense of incompetence as I tried to implement a visually effective design. Writing CSS is easy, quite so, but writing CSS which makes a web page look good is another task entirely. Web design is its own field of study, apart from web programming!
+
+Procrastination can happen when I am frustrated by a learning process, but I did also have many other personal issues and events occurring in my life which delayed my opportunity to complete this unit in a timely manner. Wanting to construct a beautiful design, rather than a rudimentary design, caused me to reattempt styling my website. The restyling is visible on the About page, which I made on December 23rd, 2022. The previous design was made in late October, or early November; I would need to check my Git log.
+
+The design aspect of CSS was the most difficult part for me. Writing non-trivial selectors, such as the one in the CSS rule quoted below, was  much easier for me than accepting my design as sufficient. The colouring and constrast of borders, backgrounds, and content didn't appeal to my own eye as much as I'd like it to have done. Accepting my own work as sufficient, or excellent, was difficult. I've learned that I am my own worst critic, more than I am ever criticized by others.
+
+/* Reduce the margin of the first paragraph */
+main > section h1, h2 + p:nth-child(1) {
+    margin: 0px;
+}
+
+The most useful thing I learned was the variety of pseudo-selectors, or pseudo-classes such as nth-child(), only-child, and :hover or :visited. These modifiers of basic selectors introduce the dynamism and complexity to CSS that would otherwise only be possible with painfully arduous lists of IDs and classes on every element.
+
+The most surprising thing I learned is that when you are writing CSS and designing a website, you should design for mobile and small device screens first. This was explained in several YouTube tutorials I watched, so it is common knownledge among designers and CSS writers (not needing citation). The reasoning is that smaller devices have more visual constraint, and there is also a semantic constraint in CSS: the conditionals of media queries apply to smaller devices first, using max-width rules. Only when a certain size is surpassed does the next set of media queries apply. Using a minimum width in conjunction would allow a designer to have quite specific styles, but using only max-width rules allows a minimum amount of device-specific design.
+
+Were I to do it all again, I would focus on mobile first. I really did not want to, but it is necessary in today's mobile-first world. I would also approach writing my CSS differently. I jumped around different aspects of my site frequently, rather than designing each area independently. Beginning again, the header, then the footer, and then the main areas of the site would be designed separately. I would then break the main area of the site up into many smaller pieces.
+
