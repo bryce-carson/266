@@ -1,10 +1,11 @@
 // Do not let the reference remain after the update. There is no need for it
-// after the procedure is complete.
+// after the procedure is complete, that is do not create any side effects
+// except in the DOM.
 (() => {
     // Remove the manually included date and time element if it exits.
-    let node = document.querySelector(footer p:nth-child(2));
-    if (node) {
-        node.remove;
+    let node = document.querySelector('footer > p:nth-child(2)');
+    if (document.body.contains(node)) {
+        node.remove();
     }
 })(); // A "self-invoking" arrow function with no parameters or arguments.
 

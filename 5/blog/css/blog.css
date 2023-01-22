@@ -77,11 +77,11 @@ ul.tags:not(:last-child) {
 
 /* Select all but the last sibling (not last-child pattern) */
 /* https://www.geeksforgeeks.org/how-to-select-all-children-of-an-element-except-the-last-child-using-css/ */
-main > article > div > ul:nth-child(4) > li:not(:last-child):after {
+main article > div > ul:nth-child(4) > li:not(:last-child):after {
     content: ", ";
 }
 
-main > article > div > ul {
+main article > div > ul {
     list-style: none;
     display: flex;
     padding-left: 5px;
@@ -97,6 +97,6 @@ main > article > div > ul {
     background-color: var(--jet);
 }
 
-main > article > div > ul:nth-child(4) > li {
+main article > div > ul:nth-child(4) > li {
     margin-right: 10px;
 }
